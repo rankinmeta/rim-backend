@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_blocks_case_studies_sections",
+  "info": {
+    "displayName": "Case Studies Section"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "project_label": {
+      "type": "string"
+    },
+    "project_title": {
+      "type": "string",
+      "required": true
+    },
+    "project_description": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

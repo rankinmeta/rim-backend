@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blocks_who_we_ares",
+  "info": {
+    "displayName": "Who We Are"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": false
+    },
+    "cards": {
+      "type": "component",
+      "component": "elements.who-we-are-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

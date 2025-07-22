@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_footer_cta_sections",
+  "info": {
+    "displayName": "Footer CTA Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_stats",
+  "info": {
+    "displayName": "stats"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "symbol": {
+      "type": "enumeration",
+      "enum": [
+        "plus",
+        "percentage"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

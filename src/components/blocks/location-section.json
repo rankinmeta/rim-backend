@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blocks_location_sections",
+  "info": {
+    "displayName": "Location Section",
+    "icon": "pinMap"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "location_1": {
+      "type": "component",
+      "component": "elements.location",
+      "repeatable": false
+    },
+    "location_2": {
+      "type": "component",
+      "component": "elements.location",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

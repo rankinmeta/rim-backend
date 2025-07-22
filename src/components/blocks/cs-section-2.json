@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_blocks_cs_section_2s",
+  "info": {
+    "displayName": "CS Section 2"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "stats": {
+      "type": "component",
+      "component": "elements.stats",
+      "repeatable": true,
+      "max": 3
+    },
+    "image1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

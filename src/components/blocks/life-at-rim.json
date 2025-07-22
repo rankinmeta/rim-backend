@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_life_at_rims",
+  "info": {
+    "displayName": "Life At Rim"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

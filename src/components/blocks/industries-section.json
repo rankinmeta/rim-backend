@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_blocks_industries_sections",
+  "info": {
+    "displayName": "Industries Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "faqs": {
+      "type": "component",
+      "component": "elements.accordion",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

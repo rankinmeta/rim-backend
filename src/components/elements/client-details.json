@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_client_details",
+  "info": {
+    "displayName": "Client Details"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "details": {
+      "type": "component",
+      "component": "elements.details-list",
+      "repeatable": true,
+      "max": 3
+    }
+  },
+  "config": {}
+}

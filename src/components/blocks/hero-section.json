@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blocks_hero_sections",
+  "info": {
+    "displayName": "Hero Section"
+  },
+  "options": {},
+  "attributes": {
+    "main_content": {
+      "type": "component",
+      "component": "elements.hero-content",
+      "repeatable": true
+    },
+    "cta_1": {
+      "type": "component",
+      "component": "elements.button",
+      "repeatable": false
+    },
+    "cta_2": {
+      "type": "component",
+      "component": "elements.button",
+      "repeatable": false
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "tag": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

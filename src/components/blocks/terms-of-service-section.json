@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_blocks_terms_of_service_sections",
+  "info": {
+    "displayName": "Terms of Service Section"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "terms": {
+      "type": "component",
+      "component": "elements.list",
+      "repeatable": true,
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_who_we_are_cards",
+  "info": {
+    "displayName": "Who We Are Card"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "symbol": {
+      "type": "enumeration",
+      "enum": [
+        "plus,",
+        "percentage"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

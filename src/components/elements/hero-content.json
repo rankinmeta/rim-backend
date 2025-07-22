@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_hero_contents",
+  "info": {
+    "displayName": "Hero Content"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

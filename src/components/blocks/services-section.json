@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_services_sections",
+  "info": {
+    "displayName": "Services Section"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "component": "elements.service-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

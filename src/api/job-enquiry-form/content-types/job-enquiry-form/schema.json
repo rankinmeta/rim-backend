@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_enquiry_forms",
+  "info": {
+    "singularName": "job-enquiry-form",
+    "pluralName": "job-enquiry-forms",
+    "displayName": "Job Enquiry Form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "applyFor": {
+      "type": "string",
+      "required": true
+    },
+    "yearsOfExperience": {
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "cv": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    }
+  }
+}

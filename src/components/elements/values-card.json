@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_values_cards",
+  "info": {
+    "displayName": "Values Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

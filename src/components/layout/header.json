@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_layout_headers",
+  "info": {
+    "displayName": "Header",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "logo_white": {
+      "type": "component",
+      "component": "elements.logo",
+      "repeatable": false
+    },
+    "cta": {
+      "type": "string",
+      "required": true
+    },
+    "logo_black": {
+      "type": "component",
+      "component": "elements.logo",
+      "repeatable": false,
+      "required": true
+    }
+  },
+  "config": {}
+}

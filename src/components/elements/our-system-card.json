@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_our_system_cards",
+  "info": {
+    "displayName": "Our System Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

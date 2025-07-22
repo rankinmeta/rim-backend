@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_blocks_cs_section_1s",
+  "info": {
+    "displayName": "CS Section 1"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "client_details": {
+      "type": "component",
+      "component": "elements.client-details",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  },
+  "config": {}
+}
