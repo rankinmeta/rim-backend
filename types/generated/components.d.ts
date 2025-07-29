@@ -317,7 +317,7 @@ export interface BlocksServiceHeroSection extends Struct.ComponentSchema {
   };
   attributes: {
     background: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
-    description: Schema.Attribute.String & Schema.Attribute.Required;
+    description: Schema.Attribute.Text & Schema.Attribute.Required;
     tag: Schema.Attribute.String & Schema.Attribute.Required;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
