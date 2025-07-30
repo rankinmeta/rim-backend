@@ -9,8 +9,8 @@ const lifecycles = {
 
         try {
             await resend.emails.send({
-                from: "onboarding@resend.dev",
-                to: "work@rankinmeta.com",
+                from: "Rankinmeta <noreply@rankinmeta.com>",
+                to: "info@rankinmeta.com",
                 subject: "New Video Conference Request Received",
                 html: `
           <h2>Video Conference Appointment Request</h2>
@@ -24,7 +24,7 @@ const lifecycles = {
         `,
             });
 
-            console.log("✅ Email sent successfully to prajil@rankinmeta.com");
+            console.log(`✅ Email sent successfully to info@rankinmeta.com`);
         } catch (err) {
             console.error("❌ Error sending email via Resend:", err);
         }
