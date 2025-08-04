@@ -537,8 +537,16 @@ export interface ApiBlogBlog extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
-    blog: Schema.Attribute.Blocks &
+    blog: Schema.Attribute.RichText &
       Schema.Attribute.Required &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor.CKEditor',
+        {
+          licenseKey: 'eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE3ODU2Mjg3OTksImp0aSI6IjVhYzZlYTA2LTI2MzctNDgxNy04NjI2LTQ2Y2RkMzMwZTcxYyIsInVzYWdlRW5kcG9pbnQiOiJodHRwczovL3Byb3h5LWV2ZW50LmNrZWRpdG9yLmNvbSIsImRpc3RyaWJ1dGlvbkNoYW5uZWwiOlsiY2xvdWQiLCJkcnVwYWwiXSwiZmVhdHVyZXMiOlsiRFJVUCIsIkUyUCIsIkUyVyJdLCJ2YyI6IjMwMjY0NTczIn0.0a9XqxJr3JGYLfzi2c75PuBdhH1Q0bXqeCZdaOLJRVkl5Tvxom2V1e2k89iVia2fhKOV4IL3lK-XAjJXo8bbPg';
+          output: 'HTML';
+          preset: 'rich';
+        }
+      > &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
