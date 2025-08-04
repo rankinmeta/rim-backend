@@ -65,15 +65,6 @@
         "images"
       ]
     },
-    "blog": {
-      "type": "blocks",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "required": true
-    },
     "slug": {
       "type": "uid",
       "pluginOptions": {
@@ -102,6 +93,21 @@
       },
       "component": "blocks.insights-section",
       "repeatable": false
+    },
+    "blog": {
+      "type": "customField",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "customField": "plugin::ckeditor.CKEditor",
+      "options": {
+        "output": "HTML",
+        "preset": "rich",
+        "licenseKey": "eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE3ODU2Mjg3OTksImp0aSI6IjVhYzZlYTA2LTI2MzctNDgxNy04NjI2LTQ2Y2RkMzMwZTcxYyIsInVzYWdlRW5kcG9pbnQiOiJodHRwczovL3Byb3h5LWV2ZW50LmNrZWRpdG9yLmNvbSIsImRpc3RyaWJ1dGlvbkNoYW5uZWwiOlsiY2xvdWQiLCJkcnVwYWwiXSwiZmVhdHVyZXMiOlsiRFJVUCIsIkUyUCIsIkUyVyJdLCJ2YyI6IjMwMjY0NTczIn0.0a9XqxJr3JGYLfzi2c75PuBdhH1Q0bXqeCZdaOLJRVkl5Tvxom2V1e2k89iVia2fhKOV4IL3lK-XAjJXo8bbPg"
+      },
+      "required": true
     }
   }
 }
