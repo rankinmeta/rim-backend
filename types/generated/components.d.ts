@@ -625,9 +625,10 @@ export interface ElementsStats extends Struct.ComponentSchema {
     displayName: 'stats';
   };
   attributes: {
+    format: Schema.Attribute.String;
     label: Schema.Attribute.String & Schema.Attribute.Required;
     symbol: Schema.Attribute.Enumeration<['plus', 'percentage']>;
-    value: Schema.Attribute.String & Schema.Attribute.Required;
+    value: Schema.Attribute.Integer & Schema.Attribute.Required;
   };
 }
 

@@ -757,6 +757,15 @@ export interface ApiCaseStudyCaseStudy extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
+    contact_section: Schema.Attribute.Component<
+      'blocks.contact-section',
+      false
+    > &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -827,6 +836,15 @@ export interface ApiCaseStudyCaseStudy extends Struct.CollectionTypeSchema {
       }>;
     slug: Schema.Attribute.UID<'project_title'> &
       Schema.Attribute.Required &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    testimonial: Schema.Attribute.Component<
+      'blocks.testimonial-section',
+      false
+    > &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;

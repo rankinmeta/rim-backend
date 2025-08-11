@@ -127,6 +127,26 @@
       },
       "component": "shared.seo",
       "repeatable": false
+    },
+    "testimonial": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.testimonial-section",
+      "repeatable": false
+    },
+    "contact_section": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.contact-section",
+      "repeatable": false
     }
   }
 }
